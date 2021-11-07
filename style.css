@@ -1,0 +1,65 @@
+html,body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+.section {
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	border: 0px;
+	background: black;
+}
+
+#Intro {
+	background: linear-gradient(to bottom, #1c5d99 0%, #e0dfd5 100%);
+}
+
+#Coolband {
+	background: linear-gradient(to bottom, #e0dfd5 0%, #18a999 100%);
+}
+
+#nav {
+	height: 100%; 
+	width: 6vw; 
+	position: fixed; 
+	z-index: 1;
+	top: 0;
+	left: 0;
+	overflow-x: hidden; 
+	transition: 0.5s; 
+	margin: 0;
+	background-color: #0d0106;
+	text-align: right;
+	
+
+}
+
+#main {
+	transition: margin-left .5s;
+}
+
+#navIcon {
+	font-size: 3em;
+	color: white;
+	margin-right: 1.25vw;
+	margin-top: 1.25vw;
+	background: transparent;
+	border: 0;
+	height: 1.5em;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#navText {
+	display: none;
+	border-left: 2px;
+	border-color: white;
+	margin-left: 1vw;
+}
+
+
